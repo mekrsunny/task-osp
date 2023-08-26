@@ -1,0 +1,184 @@
+
+
+.header{
+    width: 100%;
+    height: 7vh;
+    background-color: #631886;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.hdleft{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hdleft div{
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: #631886;
+    font-weight: bold;
+    font-family: Arial;
+}
+.hdleft img{
+    width: 20px;
+}
+.hdrt img{
+    width: 20px;
+    margin-left: 20px;
+}
+
+
+.profilepg{
+    width: 100%;
+    display: flex;
+}
+.sidebar{
+    position: relative;
+    background-color: white;
+    width: 15%;
+    height: 93vh;
+    box-shadow: 2px 2px 7px grey;
+    font-family: Arial;
+}
+.sidebarup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    color: navy;
+}
+.sidebarup b{
+    font-size: 14px;
+}
+.sidebarup p{
+    font-size: 13px;
+    margin-top: 3px;
+}
+.propic{
+    width: 45%;
+    border: 5px solid #c8cfcf5e ;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+.pl{
+    margin: 10px 30px 10px 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+}
+.sbpatient{
+    color: white;
+    border-radius: 0 50px 50px 0;
+    box-shadow: 3px 3px 10px #631886;
+    background: linear-gradient(to right, #2323dd, #a51f7d);
+}
+.pl img{
+    width: 20px;
+}
+
+
+.mainpage{
+    width: 100%;
+    font-family: Arial;
+    color: navy;
+}
+.dashboard{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    box-shadow: 2px 2px 7px grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.card2{
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    
+    margin: 20px;
+}
+.pdetail{
+    height: 100%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 3px 3px 20px grey;
+    border-radius: 8px;
+}
+.pdetail h3{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.organise{
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+.colmn{
+    display: flex;
+    flex-direction: column;
+}
+.colmn input{
+    margin-bottom: 15px;
+    height: 30px;
+    border: 1px solid #c0c0c081;
+    border-radius: 5px;
+}
+.pdetail button{
+    background-color: #631886;
+    border: none;
+    padding: 5px 18px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+
+.plist{
+    height: 100%;
+    box-shadow: 3px 3px 20px grey;
+    border-radius: 8px;
+    background-color: white;
+    padding: 10px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.search input{
+    height: 22px;
+    border: 1px solid #c0c0c081;
+    border-radius: 5px;
+}
+table{
+    box-shadow: 2px 2px 5px #dfdcdc;
+}
+th{
+   background-color: #c8cfcf5e;
+   padding: 5px 60px 5px 3px;
+   font-size: 12px;
+}
+td{
+    font-size: 12px;
+}
+td img{
+    width: 17px;
+    margin-left: 5px;
+}

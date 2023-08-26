@@ -1,0 +1,43 @@
+.ribbon {
+   background-color: #02075d;
+   color: white;
+}
+
+
+
+.text-color {
+   color: #02075d;
+   font-weight: 500;
+}
+
+.bg{
+   background-image: url(../assets/Images/bgimg.png);
+   background-size: cover;
+}
+       
+.pc_img {
+   margin-top: -3%;
+   height: 30%;
+   width: 30%;
+}
+
+.right_float {
+   float: right;
+}
+
+.service {
+   background-color: rgb(236, 235, 235);
+}
+
+.footer_text {
+   color: grey;
+   font-weight: 400;
+}
+
+.shadow {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.bg-color {
+   background-color: rebeccapurple;
+}
