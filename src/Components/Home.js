@@ -68,12 +68,12 @@ function Dashboard() {
             <div>
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav gap-4">
-                  <Link to="/">
+                  <Link to="/" className="text-decoration-none">
                     <li class="nav-item ribbon rounded nav-link active text-white">
                       Home
                     </li>
                   </Link>
-                  <Link to="/dashboard">
+                  <Link to="/dashboard" className="text-decoration-none">
                     <li class="nav-link active text-color">
                       Dashboard
                     </li>
@@ -98,7 +98,7 @@ function Dashboard() {
                       <span className="text-color">About Us</span>
                     </a>
                   </li>
-                  <Link to="/login">
+                  <Link to="/login" className="text-decoration-none">
                     <li className="nav-link active text-color">
                       Login
                     </li>
